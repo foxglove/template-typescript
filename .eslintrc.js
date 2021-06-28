@@ -3,6 +3,7 @@ module.exports = {
   env: {
     node: true,
   },
+  ignorePatterns: ["dist"],
   overrides: [
     {
       files: ["*.ts", "*.tsx"],
