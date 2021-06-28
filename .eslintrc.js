@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["plugin:@foxglove/base"],
+  extends: ["plugin:@foxglove/base", "plugin:@foxglove/jest"],
   env: {
     node: true,
   },

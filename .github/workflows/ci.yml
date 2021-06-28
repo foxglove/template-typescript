@@ -25,3 +25,4 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm run lint:ci
+      - run: npm run test
