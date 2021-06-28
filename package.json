@@ -10,8 +10,17 @@
     "email": "contact@foxglove.dev",
     "url": "https://foxglove.dev/"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
+    "build": "tsc -b",
+    "clean": "tsc -b --clean",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.4"
   }
 }
