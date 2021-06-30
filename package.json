@@ -18,8 +18,8 @@
   "scripts": {
     "build": "tsc -b",
     "clean": "tsc -b --clean",
-    "lint": "eslint --fix .",
-    "lint:ci": "eslint .",
+    "lint": "eslint --report-unused-disable-directives --fix .",
+    "lint:ci": "eslint --report-unused-disable-directives .",
     "test": "jest"
   },
   "devDependencies": {
