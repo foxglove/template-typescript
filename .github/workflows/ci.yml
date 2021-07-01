@@ -4,8 +4,8 @@ on:
   - push
 
 jobs:
-  test:
-    name: test
+  all:
+    name: all
     runs-on: ubuntu-latest
 
     steps:
