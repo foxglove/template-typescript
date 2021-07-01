@@ -4,7 +4,10 @@
   "version": "0.0.1",
   "description": "",
   "license": "",
-  "repository": "github:foxglove/template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxglove/template.git"
+  },
   "author": {
     "name": "Foxglove",
     "email": "contact@foxglove.dev",
