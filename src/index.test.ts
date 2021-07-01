@@ -1,4 +1,4 @@
-import foo from "./index.js";
+import foo from "./index";
 
 describe("foo", () => {
   it("returns a value", () => {
