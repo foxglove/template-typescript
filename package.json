@@ -13,15 +13,18 @@
     "email": "contact@foxglove.dev",
     "url": "https://foxglove.dev/"
   },
-  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "main": "dist/cjs/index.js",
   "files": [
     "dist",
     "src"
   ],
   "scripts": {
-    "build": "tsc -b",
-    "prepack": "tsc -b",
-    "clean": "tsc -b --clean",
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:esm": "tsc -b tsconfig.json",
+    "build:cjs": "tsc -b tsconfig.cjs.json",
+    "prepack": "npm run build",
+    "clean": "tsc -b tsconfig.cjs.json --clean && tsc -b tsconfig.json --clean",
     "lint": "eslint --report-unused-disable-directives --fix .",
     "lint:ci": "eslint --report-unused-disable-directives .",
     "test": "jest"
