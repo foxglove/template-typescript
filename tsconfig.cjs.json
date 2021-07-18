@@ -1,7 +1,6 @@
 // -*- jsonc -*-
 {
   "extends": "./tsconfig.json",
-  "include": ["./src/**/*"],
   "compilerOptions": {
     "outDir": "./dist/cjs",
     "module": "commonjs"
