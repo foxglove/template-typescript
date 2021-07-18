@@ -24,7 +24,7 @@
     "build:esm": "tsc -b tsconfig.json",
     "build:cjs": "tsc -b tsconfig.cjs.json",
     "prepack": "npm run build",
-    "clean": "tsc -b tsconfig.cjs.json --clean && tsc -b tsconfig.json --clean",
+    "clean": "rimraf dist *.tsbuildinfo",
     "lint": "eslint --report-unused-disable-directives --fix .",
     "lint:ci": "eslint --report-unused-disable-directives .",
     "test": "jest"
@@ -42,8 +42,9 @@
     "eslint-plugin-jest": "24.3.6",
     "eslint-plugin-prettier": "3.4.0",
     "jest": "27.0.6",
-    "jest-ts-webcompat-resolver": "^1.0.0",
+    "jest-ts-webcompat-resolver": "1.0.0",
     "prettier": "2.3.2",
+    "rimraf": "3.0.2",
     "typescript": "4.3.5"
   }
 }
