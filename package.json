@@ -1,5 +1,5 @@
 {
-  "name": "@foxglove/template",
+  "name": "@foxglove/template-typescript",
   "private": true,
   "version": "0.0.1",
   "description": "",
@@ -27,6 +27,7 @@
     "lint:ci": "eslint --report-unused-disable-directives .",
     "test": "jest"
   },
+  "dependencies": {},
   "devDependencies": {
     "@foxglove/eslint-plugin": "0.13.0",
     "@foxglove/tsconfig": "1.0.0",

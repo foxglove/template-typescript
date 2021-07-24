@@ -23,6 +23,7 @@ jobs:
           restore-keys: v1-${{ runner.os }}-yarn-
 
       - run: yarn install --frozen-lockfile
+
       - run: yarn run build
       - run: yarn run lint:ci
       - run: yarn run test

@@ -1,2 +1,3 @@
-# template
-Template repository for new projects
+# @foxglove/template-typescript
+
+Template repository for new TypeScript projects
