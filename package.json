@@ -27,7 +27,9 @@
     "lint:ci": "eslint --report-unused-disable-directives .",
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tslib": "^2"
+  },
   "devDependencies": {
     "@foxglove/eslint-plugin": "0.13.0",
     "@foxglove/tsconfig": "1.1.0",
