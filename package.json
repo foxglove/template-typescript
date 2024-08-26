@@ -28,7 +28,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "tslib": "^2.6.3"
+    "tslib": "^2.7.0"
   },
   "devDependencies": {
     "@foxglove/eslint-plugin": "1.0.1",
